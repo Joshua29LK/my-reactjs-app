@@ -1,0 +1,25 @@
+.content form {
+    padding: 15px 0;
+}
+.content form label {
+    display: none;
+}
+.content form .form-control::placeholder {
+    font-style: italic;
+}
+.table-striped th.id-column {
+    width: 50px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #e4e4e4;
+    color: #000;
+}
+
+.pagination .page-link {
+	color: #505b67;
+}
+.pagination .active .page-link {
+    color: #fff;
+    background-color: #696969;
+    border-color: #8a8888;
+}
